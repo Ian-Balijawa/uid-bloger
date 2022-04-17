@@ -1,0 +1,60 @@
+.header {
+  border-bottom: 1px solid #eee;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0.6rem 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+}
+
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.links a {
+  margin: 0 2rem;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    padding: 0.6rem 0.4rem;
+  }
+  .links a {
+    margin: 0 0.6rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav {
+    padding: 0.5rem 0.2rem;
+  }
+}
+/*# sourceMappingURL=Header.styles.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "NewBlog.styles.scss"
+    ],
+    "names": [],
+    "file": "NewBlog.styles.css"
+}

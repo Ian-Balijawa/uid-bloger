@@ -1,0 +1,48 @@
+{
+    "blogs":[
+        {   
+			"id":"1",
+            "title":"Lorem ipsum dolor sit amet consectetur",
+            "author":"ian_balijawa",
+            "date":"4/17/2022",
+            "slug":"1",
+            "subTitle":"Lorem ipsum dolor",
+            "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae neque a officiis, id minus nesciunt deleniti itaque, consequuntur qui excepturi fugit animi at cumque quibusdam! Sequi culpa possimus blanditiis adipisci sunt consequatur illum eligendi sed id. Ducimus nam amet voluptate labore recusandae dolorum eum temporibus? Expedita, omnis sunt inventore blanditiis excepturi molestias enim fugit hic saepe ut ipsa ex magni laboriosam exercitationem neque recusandae, ullam fuga aliquid? Fugiat, dolores officia, ea unde deleniti omnis temporibus, maxime quam voluptatibus assumenda cupiditate amet iure nesciunt perferendis tempora repudiandae hic eius fugit debitis. Quibusdam at quod blanditiis in deleniti ipsum, harum ipsa. Nostrum.",
+            "bannerURL":"/bg.jpg",
+            "avatar":"/sheena.jpg"
+        },
+        {
+			"id": "2",
+			"title": "Lorem ipsum dolor sit amet consectetur",
+			"author": "sharif kabanda",
+			"date": "4/17/2022",
+			"slug": "2",
+			"subTitle": "Lorem ipsum dolor",
+			"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae neque a officiis, id minus nesciunt deleniti itaque, consequuntur qui excepturi fugit animi at cumque quibusdam! Sequi culpa possimus blanditiis adipisci sunt consequatur illum eligendi sed id. Ducimus nam amet voluptate labore recusandae dolorum eum temporibus? Expedita, omnis sunt inventore blanditiis excepturi molestias enim fugit hic saepe ut ipsa ex magni laboriosam exercitationem neque recusandae, ullam fuga aliquid? Fugiat, dolores officia, ea unde deleniti omnis temporibus, maxime quam voluptatibus assumenda cupiditate amet iure nesciunt perferendis tempora repudiandae hic eius fugit debitis. Quibusdam at quod blanditiis in deleniti ipsum, harum ipsa. Nostrum.",
+			"bannerURL": "/sheena2.jpg",
+			"avatar": "/sheena.jpg"
+		},
+        {
+			"id": "3",
+			"title": "Lorem ipsum dolor sit amet consectetur",
+			"author": "Collins Mumbere",
+			"date": "4/17/2022",
+			"slug": "3",
+			"subTitle": "Lorem ipsum dolor",
+			"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae neque a officiis, id minus nesciunt deleniti itaque, consequuntur qui excepturi fugit animi at cumque quibusdam! Sequi culpa possimus blanditiis adipisci sunt consequatur illum eligendi sed id. Ducimus nam amet voluptate labore recusandae dolorum eum temporibus? Expedita, omnis sunt inventore blanditiis excepturi molestias enim fugit hic saepe ut ipsa ex magni laboriosam exercitationem neque recusandae, ullam fuga aliquid? Fugiat, dolores officia, ea unde deleniti omnis temporibus, maxime quam voluptatibus assumenda cupiditate amet iure nesciunt perferendis tempora repudiandae hic eius fugit debitis. Quibusdam at quod blanditiis in deleniti ipsum, harum ipsa. Nostrum.",
+			"bannerURL": "/sheena2.jpg",
+			"avatar": "/sheena.jpg"
+		},
+        {
+			"id": "4",
+			"title": "Lorem ipsum dolor sit amet consectetur",
+			"author": "sharif kabanda",
+			"date": "4/17/2022",
+			"slug": "4",
+			"subTitle": "Lorem ipsum dolor",
+			"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae neque a officiis, id minus nesciunt deleniti itaque, consequuntur qui excepturi fugit animi at cumque quibusdam! Sequi culpa possimus blanditiis adipisci sunt consequatur illum eligendi sed id. Ducimus nam amet voluptate labore recusandae dolorum eum temporibus? Expedita, omnis sunt inventore blanditiis excepturi molestias enim fugit hic saepe ut ipsa ex magni laboriosam exercitationem neque recusandae, ullam fuga aliquid? Fugiat, dolores officia, ea unde deleniti omnis temporibus, maxime quam voluptatibus assumenda cupiditate amet iure nesciunt perferendis tempora repudiandae hic eius fugit debitis. Quibusdam at quod blanditiis in deleniti ipsum, harum ipsa. Nostrum.",
+			"bannerURL": "/sheena2.jpg",
+			"avatar": "/sheena.jpg"
+		}
+    ]
+}
