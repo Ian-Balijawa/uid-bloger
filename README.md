@@ -46,27 +46,27 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/OmkarK45/blog-app
+$ git clone https://github.com/Ian-Balijawa/uid-bloger.git
 
-# Go into the repository
-$ cd backend
+
+
 
 # Go into the repository
 $ cd frontend
 
-# Install dependencies in backend by using 
+# Install  inoooooo backend by using 
 $ npm install (wait 5mins)
 
 # Install the frontend dependencies by using 
 $ yarn install (wait 5mins)
 
-# Setup environment variables
+
 $ In backend folder, create a file called '.env' 
 $ Declare the following variables as env vars : ACCESS_TOKEN, REFRESH_TOKEN_SECRET, JWT_SECRET='some secure string'(required), DB_URI_LOCAL=mongodb://localhost/blogdb (if db doesn't exist, it'll create one.), DB_URI_ATLAS='the url from mongo cloud atlas' (optional) 
 
-# Run the backend
-$cd backend
-$ npm start
+
+
+
 
 # Run the frontend by setting proxy to frontend in package.json
 $ add this line at line 2 in frontend/package.json >> "proxy" : "https://localhost:3001"
