@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="http://www.semicolon-blog.netlify.app/blogs"><img src="https://i.imgur.com/eKUAJTX.png" alt="Markdownify" width="200"></a>
+  <a href="http://www.semicolon-blog.netlify.app/blogs"><img src="" alt="Markdownify" width="200"></a>
   
   <br>
   UXBlitz
@@ -38,7 +38,7 @@
 
 ## Visit
 
-You can visit [here](http://semicolon-blog.netlify.app)
+You can visit [here](https://blogah.netlify.app/)
 
 ## How To Use
 
@@ -54,8 +54,8 @@ $ git clone https://github.com/Ian-Balijawa/uid-bloger.git
 # Go into the repository
 $ cd frontend
 
-# Install  inoooooo backend by using 
-$ npm install (wait 5mins)
+
+
 
 # Install the frontend dependencies by using 
 $ yarn install (wait 5mins)
