@@ -25,56 +25,57 @@ const EditPage = (props) => {
     e.preventDefault();
     const { user, token } = userData;
     if (!user) {
-      toast({
-        title: "Error!",
-        status: "error",
-        description: "You need to be logged in to Edit that blog.",
-        isClosable: true,
-      });
-      history.push("/user/login");
-    } else {
-      const editedBlogData = {
-        title: blogTitle,
-        bannerURL: bannerURL,
-        content: value,
-      };
-      const reqURL = `/blogs/${blogInfo.author}/${blogInfo._id}`;
-      if (userData.user.id) {
-        axios.interceptors.request.use((req) => {
-          req.headers["x-auth-token"] = token;
-          return req;
-        });
-        axios
-          .patch(process.env.REACT_APP_BACKEND + reqURL, editedBlogData)
-          .then((res) => {
-            toast({
-              title: "Successfully Edited!",
-              description: "Your blog was updated.",
-              status: "success",
-              isClosable: true,
-            });
-            console.log(res);
-            history.push("/blogs");
-          })
-          .catch((err) => {
-            toast({
-              title: "Error!",
-              description: "Blog edit failed.",
-              status: "error",
-              isClosable: true,
-            });
-            history.push("/blogs");
-          });
-      } else {
-        toast({
-          title: "Some error occured.",
-          description: "Please log in and try again.",
-          status: "error",
-          isClosable: true,
-        });
-        history.push("/user/login");
-      }
-    }
+		// toast({
+		//   title: "Error!",
+		//   status: "error",
+		//   description: "You need to be logged in to Edit that blog.",
+		//   isClosable: true,
+		// });
+		// history.push("/user/login");
+	} else {
+		const editedBlogData = {
+			title: blogTitle,
+			bannerURL: bannerURL,
+			content: value,
+		};
+		// const reqURL = `/blogs/${blogInfo.author}/${blogInfo._id}`;
+		// if (userData.user.id) {
+		//   axios.interceptors.request.use((req) => {
+		//     req.headers["x-auth-token"] = token;
+		//     return req;
+		//   });
+		//   axios
+		//     .patch(process.env.REACT_APP_BACKEND + reqURL, editedBlogData)
+		//     .then((res) => {
+		//       toast({
+		//         title: "Successfully Edited!",
+		//         description: "Your blog was updated.",
+		//         status: "success",
+		//         isClosable: true,
+		//       });
+		//       console.log(res);
+		//       history.push("/blogs");
+		//     })
+		//     .catch((err) => {
+		//       toast({
+		//         title: "Error!",
+		//         description: "Blog edit failed.",
+		//         status: "error",
+		//         isClosable: true,
+		//       });
+		//       history.push("/blogs");
+		//     });
+		// } else {
+		//   toast({
+		//     title: "Some error occured.",
+		//     description: "Please log in and try again.",
+		//     status: "error",
+		//     isClosable: true,
+		//   });
+		//   history.push("/user/login");
+		// }
+		history.push('/blogs');
+	}
   };
 
   const handleBannerURL = (e) => {

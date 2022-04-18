@@ -62,33 +62,41 @@ const App = () => {
   // }, []);
 
   return (
-    <>
-      <userContext.Provider value={{ userData, setUserData }}>
-        {/* Routing of the app */}
-        <Router>
-          <Header />
-          <Switch>
-            <Route path="/" exact component={Home} />
-            <Route path="/blogs" exact component={Blogs} />
-            <Route
-              exact
-              path="/blogs/:username/:blogID"
-              render={(props) => <Blog {...props} />}
-            />
-            <Route path="/blogs/new" exact component={NewBlog} />
-            <Route path="/blogs/edit" exact component={EditPage}/>
-            <Route path="/user/login" exact component={Login} />
-            <Route path="/user/register" exact component={Register} />
-            {userData.isAdmin ? (
-              <Route path="/user/adminPage" exact component={AdminPage} />
+		<>
+			<userContext.Provider value={{ userData, setUserData }}>
+				{/* Routing of the app */}
+				<Router>
+					<Header />
+					<Switch>
+						<Route path='/' exact component={Home} />
+						<Route path='/blogs' exact component={Blogs} />
+						<Route
+							exact
+							path='/blogs/:username/:blogID'
+							render={(props) => <Blog {...props} />}
+						/>
+						<Route path='/blogs/new' exact component={NewBlog} />
+						<Route path='/blogs/edit' exact component={EditPage} />
+						<Route path='/user/login' exact component={Login} />
+						<Route
+							path='/user/register'
+							exact
+							component={Register}
+						/>
+						<Route
+							path='/user/adminPage'
+							exact
+							component={AdminPage}
+						/>
+						{/* {userData.isAdmin ? (
               ) : (
                 <Redirect to="/user/login" />
-                )}
-            <Route component={NotFound} />
-          </Switch>
-        </Router>
-      </userContext.Provider>
-    </>
+                )} */}
+						<Route component={NotFound} />
+					</Switch>
+				</Router>
+			</userContext.Provider>
+		</>
   );
 };
 
