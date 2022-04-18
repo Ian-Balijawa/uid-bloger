@@ -3,7 +3,7 @@
   <a href="http://www.semicolon-blog.netlify.app/blogs"><img src="https://i.imgur.com/eKUAJTX.png" alt="Markdownify" width="200"></a>
   
   <br>
-  Semicolon
+  UXBlitz
   <br>
 </h1>
 
@@ -90,7 +90,3 @@ This software uses the following open source packages:
 ## License
 
 MIT
-
-> [omkarkulkarni.netlify.app](https://www.omkarkulkarni.netlify.app) &nbsp;&middot;&nbsp;
-> GitHub [@omkark45](https://github.com/omkark45) &nbsp;&middot;&nbsp;
-> LinkedIn [@omkark45](https://www.linkedin.com/in/omkark45/)
